@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.2.4
+ENV VERSION=1.2.5
 
 RUN gem install idata --version ${VERSION} --no-format-exec
 
